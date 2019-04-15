@@ -140,7 +140,7 @@ class Classifier {
     const score = predictOut.dataSync();//[0];
     predictOut.dispose();
     const endMs = performance.now();
-
+    console.log(score)
     return {score: score, elapsed: (endMs - beginMs)};
   }
 };
