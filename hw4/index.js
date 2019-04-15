@@ -8,11 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Were it for nothing but his love of you, I must always have esteemed him; but now, as Bingley's friend and your husband, there can be only Bingley and yourself more dear to me.',
+      'If I should be engaged, I will at least make notes.',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'Georgiana had the highest opinion in the world of Elizabeth; though at first she often listened with an astonishment bordering on alarm at her lively, sportive, manner of talking to her brother.',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'Supposing him wrapped up as those two passengers were, is there anything in his bulk and stature to render it unlikely that he was one of them?',
+  'example4':
+      'Where did the charitable gentleman who had a first-class ticket for this seaside resort find you?'
 };
 
 function status(statusText) {
