@@ -12,7 +12,7 @@ const examples = {
   'example1':
       'If I should be engaged, I will at least make notes.',
   'example2':
-      'Georgiana had the highest opinion in the world of Elizabeth; though at first she often listened with an astonishment bordering on alarm at her lively, sportive, manner of talking to her brother.',
+      'She expressed her gratitude again, but it was too painful a subject to each, to be dwelt on farther.',
   'example3':
       'Supposing him wrapped up as those two passengers were, is there anything in his bulk and stature to render it unlikely that he was one of them?',
   'example4':
