@@ -8,7 +8,7 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'Were it for nothing but his love of you, I must always have esteemed him; but now, as Bingley's friend and your husband, there can be only Bingley and yourself more dear to me.',
   'example2':
       'Buda-Pesth seems a wonderful place.',
   'example3':
@@ -47,11 +47,11 @@ function doPredict(predict) {
   const result = predict(textField.value);
   score_string = "Class scores: ";
   for (var x in result.score) {
-    score_string += x + " ->  " + result.score[x].toFixed(3) + ", "
+    score_string += x + " ->  " + result.score[x].toFixed(4) + ", "
   }
   //console.log(score_string);
   status(
-      score_string + ' elapsed: ' + result.elapsed.toFixed(3) + ' ms)');
+      score_string + ' elapsed: ' + result.elapsed.toFixed(4) + ' ms)');
 }
 
 function prepUI(predict) {
