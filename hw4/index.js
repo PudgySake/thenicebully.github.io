@@ -14,7 +14,7 @@ const examples = {
   'example3':
       'Supposing him wrapped up as those two passengers were, is there anything in his bulk and stature to render it unlikely that he was one of them?',
   'example4':
-      'My dear Algy, I don't know whether you will be able to understand my real motives.'
+      'My dear Algy, I don't know whether you will be able to understand my real motives.',
 };
 
 function status(statusText) {
