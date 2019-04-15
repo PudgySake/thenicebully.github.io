@@ -136,11 +136,10 @@ class Classifier {
     status('Running inference');
     const beginMs = performance.now();
     const predictOut = this.model.predict(input);
-    //console.log(predictOut.dataSync());
+    console.log(predictOut.dataSync());
     const score = predictOut.dataSync();//[0];
     predictOut.dispose();
     const endMs = performance.now();
-    console.log(score)
     return {score: score, elapsed: (endMs - beginMs)};
   }
 };
